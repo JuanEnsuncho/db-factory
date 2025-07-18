@@ -1,0 +1,20 @@
+{
+  "name": "juanensuncho/db-factory",
+  "description": "Clases PHP para gestionar conexiones a PostgreSQL, MySQL y Oracle usando Medoo.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Juan Jose Ensuncho Cantillo",
+      "email": "jj.ensuncho@outlook.com"
+    }
+  ],
+  "require": {
+    "catfan/medoo": "^2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "DBfactory\\": "src/"
+    }
+  }
+}
